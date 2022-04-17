@@ -1,6 +1,6 @@
 import java.util.*;
-import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.LogManager;
+// import org.apache.logging.log4j.logger;
+// import org.apache.logging.log4j.LogManager;
 import java.beans.PropertyEditorSupport;
 import java.lang.*;
 import static java.lang.Float.NaN;
@@ -12,7 +12,7 @@ public class MyScientificCalc
     public MyScientificCalc() {
     }
 
-    private static final Logger logger = LogManager.getLogger(MyScientificCalc.class);
+    // private static final //logger //logger = LogManager.get//logger(MyScientificCalc.class);
 
     public static void main(String args[])
     {
@@ -76,7 +76,7 @@ public class MyScientificCalc
     }
     public double squareRoot(double number) {
         double result = Math.sqrt(number);
-        logger.info("Executing square root function");
+        System.out.println("Executing square root function");
         return result;
     }
 
@@ -85,19 +85,19 @@ public class MyScientificCalc
         for( int i = number-1; i >= 1; i--){
             result = result*i;
         }
-        logger.info("Executing factorial function");
+        System.out.println("Executing factorial function");
         return result;
     }
 
     public double naturalLog(double number) {
         double result = Math.log(number);
-        logger.info("Executing Natural log function");
+        System.out.println("Executing Natural log function");
         return result;
     }
 
     public double power(double number, double b) {
         double result = Math.pow(number, b);
-        logger.info("Executing Power function");
+        System.out.println("Executing Power function");
         return result;
     }
 }
@@ -122,7 +122,7 @@ public class MyScientificCalc
 //                 System.out.print("Enter the second number : ");
 //                 number2 = scanner.nextDouble();
 //             } catch (InputMismatchException error) {
-//                 logger.error("Invalid input, Entered input is not a number");
+//                 //logger.error("Invalid input, Entered input is not a number");
 //                 return;
 //             }
 //             System.out.println("Addition result is : " + calculator.add(number1, number2));
@@ -134,7 +134,7 @@ public class MyScientificCalc
 //                 System.out.print("Enter the second number : ");
 //                 number2 = scanner.nextDouble();
 //             } catch (InputMismatchException error) {
-//                 logger.error("Invalid input, Entered input is not a number");
+//                 //logger.error("Invalid input, Entered input is not a number");
 //                 return;
 //             }
 //             System.out.println("Subtraction result is : " + calculator.subtract(number1, number2));
@@ -146,7 +146,7 @@ public class MyScientificCalc
 //                 System.out.print("Enter the second number : ");
 //                 number2 = scanner.nextDouble();
 //             } catch (InputMismatchException error) {
-//                 logger.error("Invalid input, Entered input is not a number");
+//                 //logger.error("Invalid input, Entered input is not a number");
 //                 return;
 //             }
 //             System.out.println("Multiplication result is : " + calculator.multiply(number1, number2));
@@ -158,7 +158,7 @@ public class MyScientificCalc
 //                 System.out.print("Enter the second number : ");
 //                 number2 = scanner.nextDouble();
 //             } catch (InputMismatchException error) {
-//                 logger.error("Invalid input, Entered input is not a number");
+//                 //logger.error("Invalid input, Entered input is not a number");
 //                 return;
 //             }
 //             System.out.println("Division result is : " + calculator.divide(number1, number2));
@@ -169,7 +169,7 @@ public class MyScientificCalc
 //                 System.out.print("Enter the number : ");
 //                 number1 = scanner.nextDouble();
 //             } catch (InputMismatchException error) {
-//                 logger.error("Invalid input, Entered input is not a number");
+//                 //logger.error("Invalid input, Entered input is not a number");
 //                 return;
 //             }
 //             System.out.println("Division result is : " + calculator.sqrroot(number1));
@@ -180,7 +180,7 @@ public class MyScientificCalc
 //                 System.out.print("Enter the number : ");
 //                 number1 = scanner.nextDouble();
 //             } catch (InputMismatchException error) {
-//                 logger.error("Invalid input, Entered input is not a number");
+//                 //logger.error("Invalid input, Entered input is not a number");
 //                 return;
 //             }
 //             System.out.println("Division result is : " + calculator.factorial(number1));
@@ -190,7 +190,7 @@ public class MyScientificCalc
 //                 System.out.print("Enter the number : ");
 //                 number1 = scanner.nextDouble();
 //             } catch (InputMismatchException error) {
-//                 logger.error("Invalid input, Entered input is not a number");
+//                 //logger.error("Invalid input, Entered input is not a number");
 //                 return;
 //             }
 //             System.out.println("Division result is : " + calculator.natural_log(number1));
@@ -202,7 +202,7 @@ public class MyScientificCalc
 //                 System.out.print("Enter the power : ");
 //                 number2 = scanner.nextDouble();
 //             } catch (InputMismatchException error) {
-//                 logger.error("Invalid input, Entered input is not a number");
+//                 //logger.error("Invalid input, Entered input is not a number");
 //                 return;
 //             }
 //             System.out.println("Division result is : " + calculator.power(number1, number2));
