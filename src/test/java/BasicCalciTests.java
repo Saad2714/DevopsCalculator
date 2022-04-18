@@ -52,3 +52,5 @@ public class BasicCalciTests {
         Assert.assertEquals("Division ", Double.NaN, calci.divide(9, 0), 1e-15);
     }
 }
+
+
