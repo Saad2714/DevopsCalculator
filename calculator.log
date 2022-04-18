@@ -122,3 +122,64 @@
 18/Apr/2022:11:54:02 +0530 [Calculator.java] [INFO] Calculator [POWER RESULT] :27.0
 18/Apr/2022:11:54:02 +0530 [Calculator.java] [INFO] Calculator [POWER] :-2.0,3.0
 18/Apr/2022:11:54:02 +0530 [Calculator.java] [INFO] Calculator [POWER RESULT] :-8.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [SUBTRACT] :0.0,2.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [SUBTRACT RESULT] :-2.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [SUBTRACT] :4.0,2.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [SUBTRACT RESULT] :2.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [SUBTRACT] :1.0,2.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [SUBTRACT RESULT] :-1.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [SUBTRACT] :9.0,0.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [SUBTRACT RESULT] :9.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [MULTIPLY] :1.0,2.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [MULTIPLY RESULT] :2.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [MULTIPLY] :0.0,2.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [MULTIPLY RESULT] :0.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [MULTIPLY] :4.0,2.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [MULTIPLY RESULT] :8.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [MULTIPLY] :4.0,9.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [MULTIPLY RESULT] :36.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [ADD] :0.0,2.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [ADD RESULT] :2.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [ADD] :4.0,2.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [ADD RESULT] :6.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [ADD] :1.0,2.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [ADD RESULT] :3.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [ADD] :4.0,9.0
+18/Apr/2022:15:02:24 +0530 [Calculator.java] [INFO] Calculator [ADD RESULT] :13.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [FACTORIAL] : 5.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [RESULT FACTORIAL] : 120.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [FACTORIAL] : 0.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [RESULT FACTORIAL] : 1.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [FACTORIAL] : -1.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [ERROR] Calculator [FACTORIAL EXCEPTION] - NEGATIVE BASE Factorial of negative number
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [RESULT FACTORIAL] : NaN
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [FACTORIAL] : 2.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [RESULT FACTORIAL] : 2.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [NATURAL LOG] : 4.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [RESULT NATURAL LOGARITHM] : 1.3862943611198906
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [NATURAL LOG] : 0.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [ERROR] Calculator [LOGARITHM EXCEPTION] - NON POSITIVE BASE Logarithm of non positive number
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [RESULT NATURAL LOGARITHM] : NaN
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [NATURAL LOG] : -1.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [ERROR] Calculator [LOGARITHM EXCEPTION] - NON POSITIVE BASE Logarithm of non positive number
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [RESULT NATURAL LOGARITHM] : NaN
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [SQUARE ROOT] : 1.7
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [RESULT SQUARE ROOT] : 1.3038404810405297
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [SQUARE ROOT] : 0.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [RESULT SQUARE ROOT] : 0.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [SQUARE ROOT] : -1.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [ERROR] Calculator [SQUARE ROOT EXCEPTION] - NEGATIVE BASE Square root of negative number
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [RESULT SQUARE ROOT] : NaN
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [SQUARE ROOT] : 5.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [RESULT SQUARE ROOT] : 2.23606797749979
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [POWER] :4.0,0.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [POWER RESULT] :1.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [POWER] :0.0,0.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [ERROR] Calculator [POWER EXCEPTION] - INDETERMINISTIC FORM Indeterministic form
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [POWER RESULT] :NaN
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [POWER] :-1.0,2.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [POWER RESULT] :1.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [POWER] :3.0,3.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [POWER RESULT] :27.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [POWER] :-2.0,3.0
+18/Apr/2022:15:03:02 +0530 [Calculator.java] [INFO] Calculator [POWER RESULT] :-8.0
